@@ -1,7 +1,6 @@
 from flask import Flask
 APP = Flask(__name__)
 
-# just a test comment
 @APP.route('/')
 def hello_world():
     return 'Hello, World from Flask!\n'
